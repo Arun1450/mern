@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department Collage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .department {
+            margin-bottom: 30px;
+        }
+        .department h2 {
+            background-color: #d9e0e7;
+            color: white;
+            padding: 10px;
+        }
+        .images {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .images img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .images img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Don Bosco Institute Of Technology Departments</h1>
+
+        <div class="department">
+            <h2>Science Department</h2>
+            <div class="images">
+                <img src="science1.jpg" alt="Science Lab">
+                <img src="science2.jpg" alt="Research Team">
+                <img src="science3.jpg" alt="Experiment">
+            </div>
+        </div>
+
+        <div class="department">
+            <h2>Arts Department</h2>
+            <div class="images">
+                <img src="arts1.jpg" alt="Painting Class">
+                <img src="arts2.jpg" alt="Sculpture Workshop">
+                <img src="arts3.jpg" alt="Creative Session">
+            </div>
+        </div>
+
+        <div class="department">
+            <h2>Sports Department</h2>
+            <div class="images">
+                <img src="sports1.jpg" alt="Football Match">
+                <img src="sports2.jpg" alt="Athletics">
+                <img src="sports3.jpg" alt="Basketball">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
